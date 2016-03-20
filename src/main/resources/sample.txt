@@ -1,0 +1,57 @@
+# Worth keeping close at hand
+
+<!--
+  -- id: R1X1BTRM9QM5VI
+  -- author: Amazon Customer
+  -- date: on February 7, 2014
+  -- book: Python Pocket Reference (Pocket Reference (O'Reilly))
+  -- note: 5
+  -- votes: 24
+  -- position: 1
+  -- total: 58
+  -->
+
+As someone who teaches beginning Pythonistas to learn to program, this updated edition of the Python Pocket Reference is worth keeping close at hand.
+
+The reference covers both Python 3.4 and 2.7, and it highlights changes between the two major releases in a succinct, clear way. Yes, one can find the reference information in the freely available Python docs, but this guide earns its place in my backpack by pulling together practical tips, hints, and common gotchas when using a method or function.
+
+I appreciate the author including a section on the tkinter GUI module and tools. It’s helpful to have the basics in a concise format for the times that I am troubleshooting a user interface for a laboratory program or helping someone create a simple status display for an application.
+
+Though it might not be the most exciting read, the Python Pocket Reference does what it does well – a straightforward, up-to-date resource for Python 3.4 and 2.7. Its hints and common idioms may also save a programmer valuable time debugging common mistakes.
+
+# Pretty good, sometimes index lacks
+
+<!--
+  -- id: R3AGNQQ10MTL52
+  -- author: Casper Chauncey
+  -- date: on August 2, 2014
+  -- book: Python Pocket Reference (Pocket Reference (O'Reilly))
+  -- note: 4
+  -- votes: 20
+  -- position: 2
+  -- total: 58
+  -->
+
+I refer to this frequently as I am learning Python and it usually gives me the answer but sometimes it takes quite a bit of searching and flipping back and forth. So I think the index and/or organization could be a little better. Some examples:
+
+* If you are trying to look up a concept but you don't know Python's word for it, alternate words likely won't get you there.
+
+* Suppose you want to copy an object, or assign the contents of one object to another, and you're trying to find the Python way to do that. The index does not have entries for "copy" or "contents". It does have an entry for "assignment statement" but that will just assign an object's reference to another variable so now you have two variables pointing to the same object. What you're looking for is under "slicing" but how would you find that unless you already knew it?
+
+A few more details / examples wouldn't hurt either although I understand they are trying to keep a "pocket" reference small.
+
+# Great book for Python scripters
+
+<!--
+  -- id: RQC9W4DKHC4HU
+  -- author: I. Blais
+  -- date: on April 2, 2014
+  -- book: Python Pocket Reference (Pocket Reference (O'Reilly))
+  -- note: 5
+  -- votes: 13
+  -- position: 3
+  -- total: 58
+  -->
+
+This book has become a permanent resident in my backpack. I often find myself writing quick python scripts on the go for work. This book has proved immensely valuable when I'm working on a script and don't have network access (if I have internet it's generally faster to google it :). 5/5 would recommend.
+
