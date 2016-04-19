@@ -13,15 +13,35 @@
 		<version>1.3.3.RELEASE</version>
 	</parent>
 
+	<properties>
+		<java.version>1.8</java.version>
+		<lucene.version>5.5.0</lucene.version>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
-    		<groupId>com.fasterxml.jackson.core</groupId>
-    		<artifactId>jackson-core</artifactId>
-    	</dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-core</artifactId>
+			<version>${lucene.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-analyzers-common</artifactId>
+			<version>${lucene.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-queryparser</artifactId>
+			<version>${lucene.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -35,16 +55,14 @@
 		</dependency>
 	</dependencies>
 
-	<properties>
-		<java.version>1.8</java.version>
-	</properties>
-
-
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>fr.imlovinit.myrevieweditor.Application</mainClass>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

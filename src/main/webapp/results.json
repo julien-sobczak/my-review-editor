@@ -1,0 +1,26 @@
+{
+  "query": "ceci est un test",
+  "analyzed_query": "ceci test",
+  "took": 63,
+  "total": 25,
+  "hits": [
+    {
+      "book": "Elasticsearch: The Definitive Guide",
+      "reviewer": "bill",
+      "date": "10/12/2015",
+      "votes": 2,
+      "rank": 3,
+      "headline": "The best resource out there about Elasticsearch.",
+      "review": "If you are just beginning with Elasticsearch, this book is for you. You will learn how to use the REST API."
+    },
+    {
+      "book": "Spring Integration in Action",
+      "reviewer": "julien",
+      "date": "11/01/2013",
+      "votes": 1,
+      "rank": 5,
+      "headline": "The framework explained by its creators.",
+      "review": "The authors begin with a classic Getting Started to explain the major components of the framework and how to use it."
+    }
+  ]
+}
